@@ -54,5 +54,8 @@ $route['404_override'] = '';
 $route['translate_uri_dashes'] = FALSE;
 
 //CI search Ajax route create:
+$route['search3']['GET']='AjaxSearchController/index';
+$route['search2']['POST']='AjaxSearchController/index';
 
-$route['search']='AjaxSearchController/index';
+
+$route['confuse']='AjaxSearchController/fetch';
